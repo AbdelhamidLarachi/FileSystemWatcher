@@ -14,4 +14,7 @@ Global
 		{2325E0D5-34A0-40BE-A68C-3ED81E186093}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2325E0D5-34A0-40BE-A68C-3ED81E186093}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		description = " detect directory change and return renamed, moved, created, and deleted files. Able to spot renamed files without hashcode comparing or real time tracking. "
+	EndGlobalSection
 EndGlobal

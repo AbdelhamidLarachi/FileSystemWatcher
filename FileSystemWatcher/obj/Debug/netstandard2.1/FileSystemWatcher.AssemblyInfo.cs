@@ -11,8 +11,11 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("FileSystemWatcher")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Abdelhamid Larachi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyCopyrightAttribute("Abdelhamid Larachi")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("detect directory change and return renamed, moved, created, and deleted files. Ab" +
+    "le to spot  renamed files without hashcode comparing or real time tracking.\r\n")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("FileSystemWatcher")]

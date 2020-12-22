@@ -1,11 +1,59 @@
 {
   "version": 3,
   "targets": {
-    ".NETStandard,Version=v2.1": {}
+    ".NETStandard,Version=v2.1": {
+      "NuGet.Build.Packaging/0.2.2": {
+        "type": "package",
+        "build": {
+          "build/NuGet.Build.Packaging.props": {},
+          "build/NuGet.Build.Packaging.targets": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "NuGet.Build.Packaging/0.2.2": {
+      "sha512": "0NpDbrsJ+kTKtOEQH0RVbZmpsnCOBHkznA9Kov+u2xul+e2M10PCUO5a4ATZbuStOMcS/lSBYae/W/pCtJOL+Q==",
+      "type": "package",
+      "path": "nuget.build.packaging/0.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/ApiIntersect.exe",
+        "build/ApiIntersect.exe.config",
+        "build/GenerateReferenceAssembly.csproj",
+        "build/ICSharpCode.Decompiler.dll",
+        "build/ICSharpCode.NRefactory.CSharp.dll",
+        "build/ICSharpCode.NRefactory.Cecil.dll",
+        "build/ICSharpCode.NRefactory.Xml.dll",
+        "build/ICSharpCode.NRefactory.dll",
+        "build/Mono.Cecil.Mdb.dll",
+        "build/Mono.Cecil.Pdb.dll",
+        "build/Mono.Cecil.Rocks.dll",
+        "build/Mono.Cecil.dll",
+        "build/Mono.Options.dll",
+        "build/NuGet.Build.Packaging.Authoring.props",
+        "build/NuGet.Build.Packaging.Authoring.targets",
+        "build/NuGet.Build.Packaging.Compatibility.props",
+        "build/NuGet.Build.Packaging.Inference.targets",
+        "build/NuGet.Build.Packaging.Legacy.props",
+        "build/NuGet.Build.Packaging.Legacy.targets",
+        "build/NuGet.Build.Packaging.ReferenceAssembly.targets",
+        "build/NuGet.Build.Packaging.Tasks.dll",
+        "build/NuGet.Build.Packaging.Tasks.pdb",
+        "build/NuGet.Build.Packaging.Version.props",
+        "build/NuGet.Build.Packaging.props",
+        "build/NuGet.Build.Packaging.targets",
+        "buildMultiTargeting/NuGet.Build.Packaging.MultiTargeting.targets",
+        "nuget.build.packaging.0.2.2.nupkg.sha512",
+        "nuget.build.packaging.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETStandard,Version=v2.1": []
+    ".NETStandard,Version=v2.1": [
+      "NuGet.Build.Packaging >= 0.2.2"
+    ]
   },
   "packageFolders": {
     "/Users/nginx-iwnl/.nuget/packages/": {}
@@ -14,7 +62,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "/Users/nginx-iwnl/Projects/FileSystemWatcher/FileSystemWatcher/FileSystemWatcher.csproj",
-      "projectName": "FileSystemWatcher",
+      "projectName": "AL-FileSystemWatcher",
       "projectPath": "/Users/nginx-iwnl/Projects/FileSystemWatcher/FileSystemWatcher/FileSystemWatcher.csproj",
       "packagesPath": "/Users/nginx-iwnl/.nuget/packages/",
       "outputPath": "/Users/nginx-iwnl/Projects/FileSystemWatcher/FileSystemWatcher/obj/",
@@ -41,6 +89,14 @@
     },
     "frameworks": {
       "netstandard2.1": {
+        "dependencies": {
+          "NuGet.Build.Packaging": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[0.2.2, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

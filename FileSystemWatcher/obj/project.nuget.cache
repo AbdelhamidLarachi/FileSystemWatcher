@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "oeVgncsPWvz1pLPlilkLm9DJERmwTBaBavWtZ+cVDX5rf0k8tijdcDmwm60kGl8iSFIjUFEf/vFIbwCxkUs/4w==",
+  "dgSpecHash": "h4ui6fXGhaxKvMLrVntNm6YCUx7OQfcCTk3SY6WwZcPPeRH9nc9sIDNU9HpyZI98VJI+ULshIEasRkO2tVPrcw==",
   "success": true,
   "projectFilePath": "/Users/nginx-iwnl/Projects/FileSystemWatcher/FileSystemWatcher/FileSystemWatcher.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/nginx-iwnl/.nuget/packages/nuget.build.packaging/0.2.2/nuget.build.packaging.0.2.2.nupkg.sha512"
+  ],
   "logs": []
 }

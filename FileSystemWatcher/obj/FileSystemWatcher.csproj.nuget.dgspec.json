@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "/Users/nginx-iwnl/Projects/FileSystemWatcher/FileSystemWatcher/FileSystemWatcher.csproj",
-        "projectName": "FileSystemWatcher",
+        "projectName": "AL-FileSystemWatcher",
         "projectPath": "/Users/nginx-iwnl/Projects/FileSystemWatcher/FileSystemWatcher/FileSystemWatcher.csproj",
         "packagesPath": "/Users/nginx-iwnl/.nuget/packages/",
         "outputPath": "/Users/nginx-iwnl/Projects/FileSystemWatcher/FileSystemWatcher/obj/",
@@ -35,6 +35,14 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "dependencies": {
+            "NuGet.Build.Packaging": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.2.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

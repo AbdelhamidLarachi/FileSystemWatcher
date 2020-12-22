@@ -13,11 +13,10 @@ namespace FileSystemWatcher
 {
 
     /// <devdoc>
-    ///    <para> Detect file system change and return renamed, moved, created, and deleted files.
-    ///    Able to spot every renamed file among other files with exact same content and informations,
-    ///    and keep track of file even if it got 100% changed. </para>
+    ///    <para>  detect directory change and return renamed, moved, created, and deleted files.
+    ///    Able to spot renamed files without hashcode comparing or real time tracking.  </para>
     /// </devdoc>
-    ///
+
 
     public enum Operation
     {

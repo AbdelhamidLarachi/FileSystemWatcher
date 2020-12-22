@@ -4,11 +4,32 @@
     <TargetFramework>netstandard2.1</TargetFramework>
     <Description>detect directory change and return renamed, moved, created, and deleted files. Able to spot  renamed files without hashcode comparing or real time tracking.
 </Description>
+    <PackageId>AL-FileSystemWatcher</PackageId>
+    <Authors>Abdelhamid Larachi</Authors>
+    <Copyright>Abdelhamid Larachi</Copyright>
+    <Owners>Abdelhamid Larachi</Owners>
+    <PackageProjectUrl>https://github.com/AbdelhamidLarachi/FileSystemWatcher</PackageProjectUrl>
+    <PackageReleaseNotes>detect directory change and return renamed, moved, created, and deleted files. Able to spot  renamed files without hashcode comparing or real time tracking.</PackageReleaseNotes>
+    <Summary>detect directory change and return renamed, moved, created, and deleted files. Able to spot  renamed files without hashcode comparing or real time tracking.
+</Summary>
+    <PackageTags>filesystemwatcher directory file track files rename change</PackageTags>
+    <Title>FileSystemWatcher</Title>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageLicenseUrl>https://github.com/AbdelhamidLarachi/FileSystemWatcher/blob/master/LICENSE</PackageLicenseUrl>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType></DebugType>
+  </PropertyGroup>
   <ItemGroup>
     <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="FileSystemWatcher.cs">
-      <IncludeInPackage>false</IncludeInPackage>
+      <IncludeInPackage>true</IncludeInPackage>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.2">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
   </ItemGroup>
 </Project>

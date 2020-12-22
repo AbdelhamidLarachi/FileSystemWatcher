@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Abdelhamid Larachi")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("detect directory change and return renamed, moved, created, and deleted files. Ab" +
-    "le to spot  renamed files without hashcode comparing or real time tracking.\r\n")]
+    "le to spot  renamed files without hashcode comparing or real time tracking.\n")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("FileSystemWatcher")]

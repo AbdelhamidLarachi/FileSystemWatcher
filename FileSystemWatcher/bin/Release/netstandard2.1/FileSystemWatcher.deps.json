@@ -8,10 +8,14 @@
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
       "FileSystemWatcher/1.0.0": {
+        "dependencies": {
+          "NuGet.Build.Packaging": "0.2.2"
+        },
         "runtime": {
           "FileSystemWatcher.dll": {}
         }
-      }
+      },
+      "NuGet.Build.Packaging/0.2.2": {}
     }
   },
   "libraries": {
@@ -19,6 +23,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "NuGet.Build.Packaging/0.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0NpDbrsJ+kTKtOEQH0RVbZmpsnCOBHkznA9Kov+u2xul+e2M10PCUO5a4ATZbuStOMcS/lSBYae/W/pCtJOL+Q==",
+      "path": "nuget.build.packaging/0.2.2",
+      "hashPath": "nuget.build.packaging.0.2.2.nupkg.sha512"
     }
   }
 }

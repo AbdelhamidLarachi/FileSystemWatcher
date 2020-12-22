@@ -1,0 +1,4 @@
+/Users/nginx-iwnl/Projects/FileSystemWatcher/FileSystemWatcher/obj/Release/netstandard1.3/FileSystemWatcher.csprojAssemblyReference.cache
+/Users/nginx-iwnl/Projects/FileSystemWatcher/FileSystemWatcher/obj/Release/netstandard1.3/FileSystemWatcher.AssemblyInfoInputs.cache
+/Users/nginx-iwnl/Projects/FileSystemWatcher/FileSystemWatcher/obj/Release/netstandard1.3/FileSystemWatcher.AssemblyInfo.cs
+/Users/nginx-iwnl/Projects/FileSystemWatcher/FileSystemWatcher/obj/Release/netstandard1.3/FileSystemWatcher.csproj.CoreCompileInputs.cache

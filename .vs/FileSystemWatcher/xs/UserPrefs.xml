@@ -1,13 +1,16 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workbench ActiveDocument="FileSystemWatcher/FileSystemWatcher.cs">
     <Files>
-      <File FileName="FileSystemWatcher/Class1.cs" Line="14" Column="1" />
+      <File FileName="FileSystemWatcher/FileSystemWatcher.cs" Line="405" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FileSystemWatcher" expanded="True">
-            <Node name="FileSystemWatcher" expanded="True" selected="True" />
+            <Node name="FileSystemWatcher" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="FileSystemWatcher.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -19,4 +22,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <AuthorInfo Name="Abdelhamid Larachi" Email="Abdelhamid.Larachi@outlook.com" Copyright="Abdelhamid Larachi" Company="Abdelhamid Larachi" Trademark="Abdelhamid Larachi" />
 </Properties>
