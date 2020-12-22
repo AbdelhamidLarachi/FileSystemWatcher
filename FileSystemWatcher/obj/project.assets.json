@@ -1,0 +1,63 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": []
+  },
+  "packageFolders": {
+    "/Users/nginx-iwnl/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/nginx-iwnl/Projects/FileSystemWatcher/FileSystemWatcher/FileSystemWatcher.csproj",
+      "projectName": "FileSystemWatcher",
+      "projectPath": "/Users/nginx-iwnl/Projects/FileSystemWatcher/FileSystemWatcher/FileSystemWatcher.csproj",
+      "packagesPath": "/Users/nginx-iwnl/.nuget/packages/",
+      "outputPath": "/Users/nginx-iwnl/Projects/FileSystemWatcher/FileSystemWatcher/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/nginx-iwnl/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "NETStandard.Library": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

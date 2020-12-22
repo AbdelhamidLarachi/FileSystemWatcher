@@ -1,0 +1,9 @@
+/Users/nginx-iwnl/Projects/FileSystemWatcher/FileSystemWatcher/bin/Debug/netstandard2.1/FileSystemWatcher.deps.json
+/Users/nginx-iwnl/Projects/FileSystemWatcher/FileSystemWatcher/bin/Debug/netstandard2.1/FileSystemWatcher.dll
+/Users/nginx-iwnl/Projects/FileSystemWatcher/FileSystemWatcher/bin/Debug/netstandard2.1/FileSystemWatcher.pdb
+/Users/nginx-iwnl/Projects/FileSystemWatcher/FileSystemWatcher/obj/Debug/netstandard2.1/FileSystemWatcher.csprojAssemblyReference.cache
+/Users/nginx-iwnl/Projects/FileSystemWatcher/FileSystemWatcher/obj/Debug/netstandard2.1/FileSystemWatcher.AssemblyInfoInputs.cache
+/Users/nginx-iwnl/Projects/FileSystemWatcher/FileSystemWatcher/obj/Debug/netstandard2.1/FileSystemWatcher.AssemblyInfo.cs
+/Users/nginx-iwnl/Projects/FileSystemWatcher/FileSystemWatcher/obj/Debug/netstandard2.1/FileSystemWatcher.csproj.CoreCompileInputs.cache
+/Users/nginx-iwnl/Projects/FileSystemWatcher/FileSystemWatcher/obj/Debug/netstandard2.1/FileSystemWatcher.dll
+/Users/nginx-iwnl/Projects/FileSystemWatcher/FileSystemWatcher/obj/Debug/netstandard2.1/FileSystemWatcher.pdb
