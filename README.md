@@ -75,6 +75,7 @@ namespace FileSystemWatcher
 ```
 
 expected result:
+
 ![](images/result.png)
 
 provided implementations:
