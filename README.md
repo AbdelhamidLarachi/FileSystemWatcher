@@ -1,7 +1,7 @@
-FileSystemWatcher [![FileSystemWatcher License](https://img.shields.io/badge/LICENSE-MIT-brightgreen)](https://github.com/AbdelhamidLarachi/FileSystemWatcher/blob/master/FileSystemWatcher/LICENSE)[![FileSystemWatcher NuGet version](https://img.shields.io/badge/nuget-v1.0.0-blue)](https://www.nuget.org/packages/AL-FileSystemWatcher/)
+FileSystemWatcher [![FileSystemWatcher License](https://img.shields.io/badge/LICENSE-MIT-brightgreen)](https://github.com/AbdelhamidLarachi/FileSystemWatcher/blob/master/FileSystemWatcher/LICENSE) [![FileSystemWatcher NuGet version](https://img.shields.io/badge/nuget-v1.0.0-blue)](https://www.nuget.org/packages/AL-FileSystemWatcher/)
 ========
 
-FileSystemWatcher is C# library to detect local directories change and return renamed, moved, created, and deleted files. Able to spot renamed files without hashcode comparing or real time tracking. It targets `netstandard2.1+`.
+`FileSystemWatcher` is C# library to detect local directories change and return `renamed`, `moved`, `created`, and `deleted` files. Able to spot renamed files without hashcode comparing or real time tracking. It targets `netstandard2.1+`.
 
 ## Examples
 
@@ -77,8 +77,8 @@ namespace FileSystemWatcher
 
 provided implementations:
 
-- `Created files`
-- `Deleted files`
-- `Renamed files`
-- `Moved files`
-- `Changed files with similarity percentage %`
+- `created files`
+- `deleted files`
+- `renamed files`
+- `moved files`
+- `changed files with similarity percentage %`
