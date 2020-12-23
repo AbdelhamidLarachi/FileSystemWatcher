@@ -49,22 +49,22 @@ namespace FileSystemWatcher
 
             // Print Result
             Console.WriteLine("Directory has changed : {0}", result.HasChanged);
-            Console.WriteLine("\n Created Files:");
+            Console.WriteLine("\n----Created Files:");
 
             foreach (var file in result.Changes.created)
                 Console.WriteLine(file);
 
-            Console.WriteLine("\n Deleted Files:");
+            Console.WriteLine("\n----Deleted Files:");
 
             foreach (var file in result.Changes.deleted)
                 Console.WriteLine(file);
 
-            Console.WriteLine("\n Renamed Files:");
+            Console.WriteLine("\n----Renamed Files:");
 
             foreach (var file in result.Changes.renamed)
                 Console.WriteLine("{0} => {1}", file.prevName, file.name);
 
-            Console.WriteLine("\n Changed Files:");
+            Console.WriteLine("\n----Changed Files:");
 
             foreach (var file in result.Changes.changed)
                 Console.WriteLine("{0} with {1}% match", file.filename, file.match);
@@ -74,6 +74,8 @@ namespace FileSystemWatcher
 
 ```
 
+expected result:
+![](images/result.png)
 
 provided implementations:
 
