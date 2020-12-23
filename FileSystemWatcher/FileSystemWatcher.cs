@@ -1,4 +1,4 @@
-﻿//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
 // <copyright file="FileSystemWatcher.cs" Author="Abdelhamid Larachi">
 //     Copyright (c) Abdelhamid Larachi.  All rights reserved.
 // </copyright>                                                                
@@ -213,6 +213,26 @@ namespace FileSystemWatcher
         }
 
 
+
+
+        /// <summary>
+        /// Create hidden initial snapshot folder for current directory
+        /// </summary>
+
+
+
+        public void CreateHiddenDirectory()
+        {
+            // set initial directory state in .initialstate 
+            initialstate = Path.Combine(directory, ".initialstate");
+            if (Directory.Exists(initialstate)) Directory.Delete(initialstate, true);
+
+            DirectoryInfo di = Directory.CreateDirectory(initialstate);
+            di.Attributes = FileAttributes.Directory | FileAttributes.Hidden;
+        }
+
+
+
         /// <summary>
         /// Take a directory snapshot before changes
         /// <param name="dir">directory source string</param>
@@ -220,14 +240,11 @@ namespace FileSystemWatcher
         /// </summary>
 
 
-
         public void Init(string dir, string[] ignored)
         {
             directory = dir;
-            // set initial directory state in .initialstate 
-            initialstate = Path.Combine(dir, ".initialstate");
             // create initial directory 
-            Directory.CreateDirectory(initialstate);
+            CreateHiddenDirectory();
             // copy directories
             WriteDirectories(ignored);
             // copy files
@@ -322,6 +339,7 @@ namespace FileSystemWatcher
         * @param ignore contains list of ignored patterns.
         */
 
+
         public static void BeginInit(string directory, string[] ignore = null)
         {
             if (!Directory.Exists(directory))
@@ -381,8 +399,9 @@ namespace FileSystemWatcher
             if ((source.Length == 0) || (target.Length == 0)) return 0.0;
             if (source == target) return 100.0;
 
-            string[] initial = source.Split(" ");
-            string[] final = target.Split(" ");
+            char[] pattern = { '\n', '\r', ' ' };
+            string[] initial = source.Split(pattern);
+            string[] final = target.Split(pattern);
 
             if (source.Length > target.Length) return initial.Count(x => final.Contains(x)) * 100 / initial.Length;
             else return final.Count(x => initial.Contains(x)) * 100 / final.Length;
@@ -487,7 +506,7 @@ namespace FileSystemWatcher
             for (int i = 0; i < initial.Length; i++)
             {
                 initial[i] = GetDirectoryFilename(initial[i]);
-                Console.WriteLine(initial[i]);
+                //Console.WriteLine(initial[i]);
             }
 
             return initial;
