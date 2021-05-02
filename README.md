@@ -5,9 +5,7 @@ FileSystemWatcher [![FileSystemWatcher License](https://img.shields.io/badge/LIC
 
 ## Examples
 
-example on how to use the library:
-
-All you have to do is to initialize the local directory you want to watch, using : 
+All you have to do in order to use this library is to initialize the local directory you want to watch, using : 
 
 ```csharp
 namespace FileSystemWatcher
