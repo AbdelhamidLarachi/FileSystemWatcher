@@ -5,7 +5,7 @@ FileSystemWatcher [![FileSystemWatcher License](https://img.shields.io/badge/LIC
 
 ## Examples
 
-All you have to do in order to use this library is to initialize the local directory you want to watch, using : 
+Use it like the following example : 
 
 ```csharp
 namespace FileSystemWatcher
@@ -28,7 +28,8 @@ namespace FileSystemWatcher
 }
 ```
 
-Then modify the directory content, after that you call EndInit to get result : 
+- Apply changes to your directory ..... (rename, delete...) 
+- Get results by calling `EndInit`
 
 ```csharp
 using System;
